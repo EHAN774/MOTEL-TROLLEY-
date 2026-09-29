@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Scenes:
+  - enabled: 1
+    path: Assets/AyAssets/MyScene/MenuScene.unity
+    guid: e6217336f6be14143ac1e2281dd32261
+  - enabled: 1
+    path: Assets/AyAssets/MyScene/Intro.unity
+    guid: 866d4ab160c2ba84198ac93a57535535
+  - enabled: 1
+    path: Assets/AyAssets/MyScene/Horror01.unity
+    guid: 9b8a0b332c88df041ba503bbd13a1649
+  - enabled: 1
+    path: Assets/AyAssets/MyScene/CatchedScene.unity
+    guid: 784eb0be4de23234eab40762417ba570
+  - enabled: 1
+    path: Assets/AyAssets/MyScene/TimeEndingScene.unity
+    guid: 00ff5ff689858f54fa050767c6555492
+  - enabled: 1
+    path: Assets/AyAssets/MyScene/EndingScene.unity
+    guid: 1c667000bb2605746a3909bcaa91543d
+  m_configObjects: {}

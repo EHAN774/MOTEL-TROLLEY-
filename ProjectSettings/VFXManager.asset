@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!937362698 &1
+VFXManager:
+  m_ObjectHideFlags: 0
+  m_IndirectShader: {fileID: 7200000, guid: 7dd3553529b38c9468e3eed35f67d80a, type: 2}
+  m_CopyBufferShader: {fileID: 7200000, guid: 3d9850197c8381a4895ee9b3c90e1c0d, type: 2}
+  m_SortShader: {fileID: 7200000, guid: c53f45045b798cf46919cca259e1abae, type: 2}
+  m_StripUpdateShader: {fileID: 7200000, guid: 0b591a6b0d6b1f34892c52e5f68d0c48, type: 2}
+  m_RenderPipeSettingsPath:
+  m_FixedTimeStep: 0.016666668
+  m_MaxDeltaTime: 0.05
+  m_MaxScrubTime: 30
+  m_CompiledVersion: 7
+  m_RuntimeVersion: 35
+  m_RuntimeResources: {fileID: 11400000, guid: 4291cf73de01d754f96783420cf815b6, type: 2}
+  m_BatchEmptyLifetime: 300

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1499692175, guid: 48132c8dbc97f956e52e75e839ab46f9, type: 3}
+  m_Name: HDRenderPipelineRayTracingResources
+  m_EditorClassIdentifier:
+  reflectionRaytracingRT: {fileID: 825902497, guid: 3bdf4e52e45b88648a506824d83899dd, type: 2}
+  reflectionRaytracingCS: {fileID: 7200000, guid: 2d448d9654618654b814a9c88c822ad6, type: 2}
+  reflectionBilateralFilterCS: {fileID: 7200000, guid: 5dde6856c43b89948bda34f9079ea093, type: 2}
+  shadowRaytracingRT: {fileID: 825902497, guid: a57aafd02c10f7045b120c197800b5bf, type: 2}
+  contactShadowRayTracingRT: {fileID: 825902497, guid: fc3fdba35184fbd488822ceca20728e8, type: 2}
+  shadowRaytracingCS: {fileID: 7200000, guid: 0e49366e049d9fd4bb0e14034c597c29, type: 2}
+  shadowFilterCS: {fileID: 7200000, guid: 4cb23044c9f05344c99ad2bbca605aa0, type: 2}
+  forwardRaytracing: {fileID: 825902497, guid: 5af664bbb957f7d4e92ba54f61f177d7, type: 2}
+  lightClusterBuildCS: {fileID: 7200000, guid: 868c0773dad53f747a23cd6b566c7e24, type: 2}
+  lightClusterDebugS: {fileID: 4800000, guid: 4800bf461f308ef42be66bebee1102eb, type: 3}
+  lightClusterDebugCS: {fileID: 7200000, guid: cf57c1d0489eb664ba9db26b36e11963, type: 2}
+  indirectDiffuseRaytracingOffRT: {fileID: 825902497, guid: 857dfcca3a810f74abf47a8bb71a1632, type: 2}
+  indirectDiffuseRaytracingL1RT: {fileID: 825902497, guid: daa95ff945ecfcc439edfc613fa20c1a, type: 2}
+  indirectDiffuseRaytracingL2RT: {fileID: 825902497, guid: a7f28af8c0bad784ab859cbc6d4fdd1e, type: 2}
+  indirectDiffuseRaytracingCS: {fileID: 7200000, guid: 7b08b6ad6a3ce7e459d788f76fbc5bd4, type: 2}
+  aoRaytracingRT: {fileID: 825902497, guid: 15d329cce5bee3046823013a1fa70082, type: 2}
+  aoRaytracingCS: {fileID: 7200000, guid: f96ec3bf8a831b54196be5fd9e98486c, type: 2}
+  subSurfaceRayTracingRT: {fileID: 825902497, guid: b79f283847973ea4c80f572e4e7a347e, type: 2}
+  subSurfaceRayTracingCS: {fileID: 7200000, guid: 5c649c9f5a0940f4998efccd69e4facd, type: 2}
+  simpleDenoiserCS: {fileID: 7200000, guid: 78a3a515ca0afa24f84727f37eaa0bfa, type: 2}
+  reflectionDenoiserCS: {fileID: 7200000, guid: 0cf58dee4aac69d4d9c40f966c8ee5e1, type: 2}
+  diffuseShadowDenoiserCS: {fileID: 7200000, guid: 737df46ae192c6e46b787a5fb9b6cc79, type: 2}
+  gBufferRaytracingRT: {fileID: 825902497, guid: bba160f47453f7f42815439cf64710ac, type: 2}
+  deferredRaytracingCS: {fileID: 7200000, guid: b4aad7cfb3c3ad54e9bbef1d948022b2, type: 2}
+  pathTracingRT: {fileID: 825902497, guid: 921e81b731fa4a5459cd9becd7edd815, type: 2}
+  pathTracingSkySamplingDataCS: {fileID: 7200000, guid: 0693a83f81e808643adf93487bdf71c7, type: 2}
+  rayMarchingCS: {fileID: 7200000, guid: deea3f1143bb54d499a7f95713eb6979, type: 2}
+  rayBinningCS: {fileID: 7200000, guid: 9c8d3923f83e4344bb53173084864570, type: 2}
+  countTracedRays: {fileID: 7200000, guid: 1ed931d73a108b7479952cf38da05779, type: 2}
+  reflectionFilterMapping: {fileID: 2800000, guid: 2e67f4c9022c8e449b824b8c0e963943, type: 3}
+  rtasDebug: {fileID: 825902497, guid: b07eefae721b5214490c289d0583ed4f, type: 2}
